@@ -25,6 +25,7 @@ alphavantage_parameters = {
 #Newsapi
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 NEWS_API = os.getenv("NEWS_API_KEY")
+print(NEWS_API)
 news_parameters = {
     "apiKey": NEWS_API,
     "q": "Tesla OR Elon OR Musk OR 'Elon Musk'",
